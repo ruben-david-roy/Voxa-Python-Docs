@@ -97,4 +97,6 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 ![Flask Setup](img/flask.png)
-For this Flask website, when a user enters text in the provided textarea and clicks the "Translate" button, the text is sent to the server via a POST request. The server then uses the Voxa library to translate the input text from English to French and displays the result back to the user in a readonly textarea.
+For this Flask website, when a user enters text in the textbox and clicks the "Translate" button, the text is sent to the server via a POST request. The server then uses the Voxa to translate the input text from English to French and displays the result back to the user in a readonly textbox.
+
+You can see the file [here](flask-app.py).
